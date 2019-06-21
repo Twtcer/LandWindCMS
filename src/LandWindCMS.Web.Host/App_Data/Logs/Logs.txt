@@ -198,3 +198,73 @@ System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout p
    at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
 ClientConnectionId:71f6f824-96f7-4538-972b-c40ff4c4d08d
 Error Number:-2,State:0,Class:11
+DEBUG 2019-06-17 16:44:15,684 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-17 16:44:15,800 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-06-17 16:44:15,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LandWindCMS.Web.Host.Startup.LandWindCMSWebHostModule, LandWindCMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-17 16:44:15,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LandWindCMS.LandWindCMSWebCoreModule, LandWindCMS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-17 16:44:15,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LandWindCMS.LandWindCMSApplicationModule, LandWindCMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-17 16:44:15,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LandWindCMS.LandWindCMSCoreModule, LandWindCMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-17 16:44:15,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-17 16:44:15,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-17 16:44:15,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-17 16:44:15,834 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-17 16:44:15,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LandWindCMS.EntityFrameworkCore.LandWindCMSEntityFrameworkModule, LandWindCMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-17 16:44:15,836 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-17 16:44:15,836 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-17 16:44:15,836 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-17 16:44:15,837 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-17 16:44:15,837 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-17 16:44:15,837 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-17 16:44:15,845 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-06-17 16:44:15,955 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-17 16:44:15,955 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-17 16:44:15,955 [1    ] o.Configuration.LanguageManagementConfig - Converted LandWindCMS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-17 16:44:15,955 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-17 16:44:16,633 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: LandWindCMS.EntityFrameworkCore.LandWindCMSDbContext, LandWindCMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-17 16:44:17,924 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-06-17 16:44:17,994 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-06-17 16:44:18,096 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-06-17 16:44:18,134 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: LandWindCMS
+DEBUG 2019-06-17 16:44:18,171 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-06-17 16:44:18,395 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-17 16:44:18,462 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-06-17 16:44:18,462 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LandWindCMS.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-06-17 16:44:18,472 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LandWindCMS.Users.Dto.CreateUserDto
+DEBUG 2019-06-17 16:44:18,472 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LandWindCMS.Users.Dto.UserDto
+DEBUG 2019-06-17 16:44:18,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LandWindCMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-06-17 16:44:18,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LandWindCMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-06-17 16:44:18,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LandWindCMS.Roles.Dto.CreateRoleDto
+DEBUG 2019-06-17 16:44:18,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LandWindCMS.Roles.Dto.PermissionDto
+DEBUG 2019-06-17 16:44:18,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LandWindCMS.Roles.Dto.RoleDto
+DEBUG 2019-06-17 16:44:18,474 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LandWindCMS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-06-17 16:44:18,474 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LandWindCMS.MultiTenancy.Dto.TenantDto
+INFO  2019-06-17 16:44:28,270 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-06-17 16:44:28,270 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-06-17 16:44:28,442 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 176.7654ms 200 
+INFO  2019-06-17 16:44:33,036 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action LandWindCMS.Web.Host.Controllers.HomeController.Index (LandWindCMS.Web.Host)
+INFO  2019-06-17 16:44:34,250 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LandWindCMS.Web.Host.Controllers.HomeController.Index (LandWindCMS.Web.Host) - Validation state: Valid
+INFO  2019-06-17 16:44:34,257 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method LandWindCMS.Web.Host.Controllers.HomeController.Index (LandWindCMS.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.471ms.
+INFO  2019-06-17 16:44:34,981 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-06-17 16:44:34,996 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LandWindCMS.Web.Host.Controllers.HomeController.Index (LandWindCMS.Web.Host) in 1954.7799ms
+INFO  2019-06-17 16:44:35,021 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6759.1317ms 302 
+INFO  2019-06-17 16:44:35,027 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2019-06-17 16:44:35,044 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.6049ms 301 
+INFO  2019-06-17 16:44:35,051 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-06-17 16:44:35,092 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.5295ms 200 text/html
+INFO  2019-06-17 16:44:35,137 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-06-17 16:44:35,185 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-06-17 16:44:35,211 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2019-06-17 16:44:35,214 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 76.2538ms 200 text/css
+INFO  2019-06-17 16:44:35,261 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2019-06-17 16:44:35,268 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 83.3228ms 200 application/javascript
+INFO  2019-06-17 16:44:35,293 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-06-17 16:44:35,308 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2019-06-17 16:44:35,311 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.3422ms 200 application/javascript
+INFO  2019-06-17 16:44:35,330 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-06-17 16:44:35,336 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'E:\GitHubCodes\LandWindCMS\aspnet-core\src\LandWindCMS.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2019-06-17 16:44:35,343 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.3637ms 200 application/javascript
+INFO  2019-06-17 16:44:35,365 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-06-17 16:44:35,368 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'E:\GitHubCodes\LandWindCMS\aspnet-core\src\LandWindCMS.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2019-06-17 16:44:35,374 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.6349ms 200 application/javascript
+INFO  2019-06-17 16:44:43,706 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-06-17 16:44:43,973 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 266.7551ms 200 application/json;charset=utf-8
